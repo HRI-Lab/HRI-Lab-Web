@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @daily_record.content %>
+</p>
+
+<%= link_to 'Edit', edit_daily_record_path(@daily_record) %> |
+<%= link_to 'Back', daily_records_path %>

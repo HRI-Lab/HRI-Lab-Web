@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HRI-LAB</title>
+    <%= csrf_meta_tags %>
+
+        <%= stylesheet_link_tag    'home', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
+
+<body class="is-loading">
+    <%= yield %>
+
+        <%= javascript_include_tag 'home', 'data-turbolinks-track': 'reload' %>
+</body>
+
+</html>
